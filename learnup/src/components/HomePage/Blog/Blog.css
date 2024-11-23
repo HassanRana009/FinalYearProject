@@ -1,0 +1,142 @@
+.blogcontainer {
+    background-color: #f7f7f7; /* Set your desired background color */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  /* CSS for the blog heading */
+  .blogheading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1A3D31; /* Set your desired text color */
+  }
+  
+  /* CSS for the blog paragraph */
+  .blogparagraph {
+    font-size: 16px;
+    color: #666; /* Set your desired text color */
+    margin-top: 10px;
+  }
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    background-color: #f7f7f7; /* Set your desired background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  /* Styles for each course item */
+  .blog-item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 350px;
+    background-color: #dfdcdc;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    transition: transform 0.3s; /* Add a smooth transform transition */
+}
+.blog-item:hover {
+    transform: scale(1.05); /* Scale the card by 5% on hover */
+}
+  .blogimg{
+    height: 236px;
+    width: 400px;
+  }
+  .blog-review {
+    list-style: none; /* Remove default list styles */
+    background-color: #25ab7c;
+    width: 150px;
+    margin-left: 30px;
+
+
+}
+.blogtotal-review {
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: #25ab7c;
+    padding: 5px;
+    color: white; /* Choose your desired text color */
+    display: flex; /* Make the star and rating text display in a row */
+    align-items: center; /* Vertically center items */
+    text-align: center;
+    margin-top: -20px;
+    
+}
+.caleneder-start{
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.blogtitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1A3D31;
+    padding: 10px;
+  }
+  .blogcontent {
+    font-size: 16px;
+    color: #777;
+    padding: 14px;
+    text-align: justify;
+  }
+  .blogleft-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+  }
+  
+  /* Style for the post meta (Comment and User) */
+  .post-meta {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .post-meta li {
+    margin-right: 20px;
+  }
+  
+  /* Style for the icon in the post meta */
+  .post-meta a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Style for the blogright-content (Read More button) */
+  .blogright-content {
+    text-align: right;
+  }
+  
+  
+.blogread-more-btn {
+    background-color: #25ab7c;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  .blogread-more-btn:hover {
+    background-color: #1a906e;
+  }
+  .comment-icon{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #1A3D31;
+  }
+  .name-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #1A3D31;
+  }
+  .right-arrowhead{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
